@@ -1,0 +1,221 @@
+/**/
+/*Principal*/
+/**/
+
+	*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+	body 
+	{
+		font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+		padding-bottom: 20px;
+	}
+
+/**/
+/**/
+
+/**/
+/*Reglas*/
+/**/
+
+	a:link
+	{
+		text-decoration: none;
+		color: white;
+	}	
+	
+	a:visited
+	{
+		color: white;
+	}
+	
+	h1
+	{
+		display: inline;
+	}
+
+	h2
+	{
+		display: inline;
+	}
+
+	h3
+	{
+		display: inline;
+	}
+
+	h4
+	{
+		display: inline;
+	}
+
+	h5
+	{
+		display: inline;
+	}
+
+	h6
+	{
+		display: inline;
+	}
+
+/**/
+/**/
+
+
+/**/
+/*Utilidades*/
+/**/
+
+	.break
+	{
+		clear: both;
+	}
+	
+	.centrar
+	{
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.mensajeIcono
+	{	
+	position: fixed;
+	padding: 0.3em;
+	width: 15em;
+	background: #D93240;
+	margin-top: 4.5em;
+	font-size: 12px;
+	color: #D93240;	
+	z-index: -1;
+	border-radius: 0 0 2px 2px;
+	transition: 0.5s;
+	}
+
+/**/
+/**/
+
+/**/
+/*Header*/
+/**/
+
+	#head
+	{
+		position: relative;
+		width: 100%;
+		height: 5em;
+		background-color: #D93240;
+		color: white;
+	}
+	
+	.lineaVertical
+	{
+		float: left;
+		margin-left: 1em;
+		margin-right: 1em;
+		margin-top: 1em;
+		height: 3em;
+		border-right: 1px solid #515151;
+	}
+
+	#contenidoHead
+	{
+		margin: 0 auto;
+		width: 55em;
+	}
+	
+	#areaLogoHead
+	{
+		width: 12em;
+	}
+
+	#logoHead
+	{
+		margin: 1em;
+		float: left;
+	}
+
+	#areaLogoHead h4
+	{
+		float: left;
+		margin-top: 2.5em;
+	}
+
+/**/
+/**/
+
+/**/
+/*Contenido*/
+/**/
+
+#wrap
+{
+	min-height: 100%;
+}
+	#contenido
+	{
+		overflow: auto;
+	}
+/**/
+/**/
+
+/**/
+/*Footer*/
+/**/
+
+	#footer
+	{
+		left: 0;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		height: 3em;		
+		background: #434343;
+	}
+	
+	#contenidoFooter
+	{
+		margin: 0 auto;
+		width: 53em;
+	}
+	
+	#footer h4
+	{
+		float: right;
+		margin: 1em;
+		color: white;
+	}
+	
+	#footer a h4:hover
+	{
+		text-decoration: underline;
+	}
+		
+	#redesSociales
+	{
+		width: 12em;
+		margin: 0 2em;
+		padding: 0.5em;
+		float: right;
+	}
+	
+	.iconoRedSocial
+	{
+		float: right;
+		margin: 0 0.5em;
+		border-radius: 2px;
+		transition: 1s;
+	}	
+	
+	.iconoRedSocial:hover
+	{
+		background: white;
+	}
+/**/
+/**/
+
+
+
